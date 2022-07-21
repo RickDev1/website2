@@ -1,0 +1,433 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background: #161616;
+    width: 1570px;
+    height: 646px;
+    border-radius: 30px;
+    margin: 50px 180px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.text {
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.img img {
+    width: 600px;
+    height: 600px;
+    margin-top: 73px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+    margin-left: -2px;
+}
+
+.fa-angle-right {
+    margin-left: 10px;
+}
+
+/* animation */
+
+@keyframes identifier {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: coral;
+    }
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    /* padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 50px; */
+    padding-top: 20px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    transition: width 2s;
+    animation: identifier 1s ease-in-out 0.5s infinite alternate;
+}
+
+.link1:hover {
+    width: 200px;
+}
+
+/* midlle */
+.middle-head {
+    display: flex;
+}
+
+.box1 {
+    background-color: #161616;
+    width: 312px;
+    height: 365px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-left: 250px;
+
+}
+
+.box1 li {
+    list-style: none;
+
+
+
+}
+
+.box1 a {
+    text-decoration: none;
+    font-size: 25px;
+
+    font-weight: 450;
+
+
+
+}
+
+.b1 {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+
+
+.l1 {
+    background-color: white;
+    width: 252px;
+    height: 64px;
+    margin: 10px;
+    padding-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    transition: width 2s;
+}
+
+.l1:hover {
+    width: 270px;
+    background-color: rgb(161, 158, 158);
+}
+
+.l2 {
+    background-color: white;
+    width: 252px;
+    height: 64px;
+    margin: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    transition: width 2s;
+}
+
+.l2:hover {
+    width: 270px;
+    background-color: rgb(161, 158, 158);
+}
+
+
+.l3 {
+    background-color: red;
+    width: 252px;
+    height: 64px;
+    margin: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: width 2s;
+
+}
+
+.l3:hover {
+    width: 270px;
+    background-color: rgb(158, 103, 103);
+    color: black;
+}
+
+
+
+
+.a3 {
+    color: white;
+
+
+}
+
+.a1 {
+    color: black;
+}
+
+.a2 {
+    color: black;
+}
+
+/* box2 */
+.small-box-1,
+.small-box-2,
+.small-box-3,
+.small-box-4,
+.small-box-5,
+.small-box-6 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 312px;
+    height: 242px;
+
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+
+}
+
+
+
+/* smallbox1 */
+img {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+p {
+    margin-left: 60px;
+}
+
+/* footer */
+.footer {
+    background-color: #161616;
+    margin-top: 50px;
+    height: 444px;
+
+
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+hr {
+    border: 1px solid rgba(249, 242, 242, 0.1);
+}
+
+.part1 {
+    padding: 100px 50px;
+}
+
+.link2 {
+    text-align: center;
+}
+
+.link2 a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* media query */
+/* tablet */
+@media screen and (max-width:992px) {
+    .container {
+        display: grid;
+        width: 794px;
+        height: 398px;
+        margin-left: 5px;
+        margin-left: 65px;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    h1 {
+
+        font-size: 40px;
+
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+
+    .link1 {
+        width: 161px;
+        height: 48px;
+    }
+
+    .img img {
+        width: 323px;
+        height: 340px;
+    }
+
+    .middle-head {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* middle    */
+    .box1 {
+        height: 175px;
+        margin-left: 5px;
+        margin-left: -15px;
+        background-color: white;
+    }
+
+    .b1 {
+
+        display: flex;
+        width: 600px;
+
+    }
+
+    .b1 li {
+
+        padding: 0 60px 0;
+        border: 1px solid gray;
+        padding-top: 20px;
+    }
+
+
+    /* box2 */
+
+    .middle {
+        height: 1100px;
+        width: 100px;
+        margin-left: 120px;
+    }
+
+
+
+}
+
+/* mobile */
+@media screen and (max-width:688px) {
+    .container {
+        width: 334px;
+        height: 472px;
+        margin-left: 140px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img img {
+        width: 233px;
+        height: 223px;
+        margin-top: -67px;
+        margin-left: 50px;
+
+
+    }
+
+    .text {
+        padding-right: 50px;
+        margin-top: 39px;
+
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+
+    .link1 {
+        width: 123px;
+        height: 30px;
+        padding-top: 10px;
+        margin-bottom: 60px;
+
+
+    }
+
+
+
+    /* middle */
+    .box1 {
+        height: 175px;
+        margin-left: 5px;
+        margin-left: -5px;
+        background-color: white;
+    }
+
+    .b1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .b1 li {
+
+        padding: 0 40px 0;
+        padding-top: 20px;
+        border: 1px solid gray;
+    }
+
+    .middle-head {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .box2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 250px;
+        margin-left: 30px;
+    }
+
+    .middle {
+        height: 2100px;
+    }
+
+    .footer {
+        height: 500px;
+    }
+
+    .link2 {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+
+
+
+}
